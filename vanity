@@ -1,0 +1,6 @@
+local gun = game:GetService("Players").LocalPlayer.PlayerGui.UI.Ingame.Crafting.Items.ScrollingFrame["Makeshift SMG"]
+local b = require (gun)
+b.Ammo = math.huge
+b.Mode = "Auto"
+b.HRecoil = {0,0}
+b.VRecoil = {0,0}
